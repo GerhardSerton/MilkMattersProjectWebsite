@@ -36,6 +36,13 @@ body {
 ol, ul {
 	list-style: none;
 }
+/*
+    Things I added:
+*/
+ul#hlist li {
+  display:inline;
+}
+
 
 blockquote, q {
 	quotes: none;
