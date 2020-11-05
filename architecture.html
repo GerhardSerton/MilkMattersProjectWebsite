@@ -46,11 +46,6 @@
 								<p>We ultimately settled on Google Firebase for several reasons. Most important was the cost associated with it: while many cloud providers provide free tiers of use, Firebase supports not only a particularly generous one, but also implements a pay-as-you-go scheme, whereby one only has to pay for the functionality they use. This results in an incredibly low cost-to-client, even in the event of them breaking out of the free tier. </p>
 								<p>While Firebase offers many different services, we opted to use only three in total: the “Realtime Database”, the “Firebase Authentication Service”, and the “Firebase Hosting”. The “Realtime Database” is a NoSQL cloud database that syncs its data across all its clients in real time. Due to this, every client that has managed to sync at least once will keep a local copy of the database, allowing for functionality to be maintained even when the connection to the cloud services is lost. This functionality is especially important in a South African context, where internet connectivity is by no means a constant. “Firebase Authentication” is a prebuilt authentication system, allowing for the easy management of user accounts. Finally, “Firebase Hosting” allows for the easy and free hosting of webapps, something that we leveraged for the staff-facing application. </p>
 								<p>For the “Realtime Database” under the free pricing tier, we were allocated 1GB of storage, 100 simultaneous connections, and 10GB of downloads per month. While this may seem small, for our purposes it was plenty as most of the data to be stored is be text-only, with most of it being cleared intermittently. Additionally, Milk Matters only keeps around 20 active donors at a time, something recorded by Wardle et al. and confirmed to still be true by us. This group would represent the most active users of the application, as they would be the ones using the more query-intensive functionality such as the depot locator and the drop-off declarer. This small size makes it unlikely for 100 simultaneous connections to ever be exceeded.</p>
-								<h2>Donor-Facing Application</h2>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-								<p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
-								<h2>Staff-Facing Application</h2>
-								<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
 							</section>
 
 					</div>
@@ -58,29 +53,19 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
+							<p>This research was conducted by students at the University of Cape Town. The students were supervised by Professor Melissa Densmore (mdensmore@cs.uct.ac.za).</p>
 						</section>
 						<section>
-							<h2>Etiam feugiat</h2>
+
 							<dl class="alt">
 								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dd>Rondebosch &bull; Cape Town &bull; 7700 &bull; South Africa</dd>
 								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
+								<dd>(+27) 021 650 9111</dd>
 								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
+								<dd><a href="#">bssdin001@myuct.ac.za &bull; amcgus001@myuct.ac.za &bull; srtpie001@myuct.ac.za </a>
+                                </dd>
 							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
 						</section>
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
